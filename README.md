@@ -19,12 +19,16 @@ Generate Application key:
 
     php artisan key:generate
 
+Create databse connection and migrate tables:
+
+    php artisan migrate
+
 Run the application:
 
     php artisan serve
 
 
-That's it.
+That's it. If you have any questions, feel free to reach out through email: _hadiniazi801@gmail.com_
 
 
 ## Learn more about Laravel & Vuejs
