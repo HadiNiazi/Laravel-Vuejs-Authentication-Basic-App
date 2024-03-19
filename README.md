@@ -3,9 +3,11 @@
 
 ## Steps to Install
 
-- Install composer
-  ``` composer install ```
+Install the library using [composer](https://getcomposer.org):
 
+    php composer.phar require nikic/php-parser
+
+    
 
 
 
