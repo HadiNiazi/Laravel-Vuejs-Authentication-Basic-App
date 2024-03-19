@@ -3,27 +3,38 @@
 
 ## Steps to Install
 
-Install the library using [composer](https://getcomposer.org):
+Install composer:
 
-    php composer.phar require nikic/php-parser
+    composer install
 
+Install Npm and Create Build file:
+
+    npm install && npm run build
     
+Create .env file:
+
+    cp .env.example .env
+    
+Generate Application key:
+
+    php artisan key:generate
+
+Run the application:
+
+    php artisan serve
 
 
+That's it.
 
 
-## Learning Laravel
+## Learn more about Laravel & Vuejs
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Visit my youtube channel to build more awesome applications [Channel Link](https://www.youtube.com/@LaravelLover)
 
-## Laravel Sponsors
+### My Recent Laravel Courses
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- **[Create API in Laravel](https://www.youtube.com/watch?v=0h-unkoowZ4&list=PLDc9bt_00KcKrWYI1tULOFlYtnwnt8Hg-&pp=iAQB)**
+- **[Create Multi Language content in Laravel](https://www.youtube.com/watch?v=9oeksj5VfJk&list=PLDc9bt_00KcIXjG4TK7_p8NOAC0Ecq4Ec&pp=iAQB)**
+- **[Deploy Laravel App on Digital Ocean](https://www.youtube.com/watch?v=Maie8_TU-oM&list=PLDc9bt_00KcIvfcUjeoaZkzcXAJpYEQ0D&pp=iAQB)**
 
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Thank you for visiting my profile. If you like the application, please hit **star** button on this repository.
